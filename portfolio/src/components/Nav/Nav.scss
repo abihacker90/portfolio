@@ -6,7 +6,7 @@
      h1 {
         color: #faa500;
         font-size: 2.5rem;
-        padding: 30px;
+        padding: 15px;
         margin-left: 5%;
         border: 2px solid #faa500;
     } 
@@ -14,12 +14,14 @@
     ul {
         margin-left: auto;
         margin-right: 40px;
-        padding: 30px;
+        padding: 15px;
 
         li {
             display: inline-block;
             padding: 10px;
             list-style-type: none;
+            text-decoration: underline 3px #faa500;
+            text-underline-offset: 0.5em;
         }
     }
 

@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=Footer.css.map */
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 4px;
+  width: 100%;
+  text-align: center;
+}
+
+.footer span {
+  font-size: 0.75rem;
+}
+/*# sourceMappingURL=Footer.css.map */
