@@ -1,10 +1,27 @@
-.container {
+.navContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 100vw;
 }
 
-.container li {
+.navContainer h1 {
+  color: #faa500;
+  font-size: 2.5rem;
+  padding: 30px;
+  margin-left: 5%;
+  border: 2px solid #faa500;
+}
+
+.navContainer ul {
+  margin-left: auto;
+  margin-right: 40px;
+  padding: 30px;
+}
+
+.navContainer ul li {
   display: inline-block;
   padding: 10px;
   list-style-type: none;

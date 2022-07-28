@@ -1,0 +1,30 @@
+.mainContainer {
+  width: 70vw;
+  margin: 80px auto;
+  display: flex;
+
+  .imgHolder {
+    width: 40%;
+  }
+  .textHolder {
+    width: 60%;
+    
+    span {
+      color: #faa500;
+      font-size: 1.8rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+      letter-spacing: 4px;
+    }
+  
+    p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+      letter-spacing: 3px;
+      padding: 10px;
+      text-align: justify;
+    }
+  }
+  }
