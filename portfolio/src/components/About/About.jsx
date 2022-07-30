@@ -2,22 +2,35 @@ import { useState } from "react";
 
 const About = () => {
   const [skills, setSkills] = useState([
-    { name: "html", id: 1 },
-    { name: "css/scss", id: 2 },
+    { name: "html5", id: 1 },
+    { name: "css3/scss", id: 2 },
     { name: "JavaScript", id: 3 },
     { name: "React", id: 4 },
-    { name: "nodejs", id: 5 },
-    { name: "express.js", id: 6 },
+    { name: "nodejs/express.js", id: 5 },
+    { name: "github", id: 6},
+    { name: "docker", id: 7},
   ]);
 
   return (
     <>
-      <div className="about"></div>
+      <div className="about">
+        <p>The past few years, I've spent my free time educating myself to become a
+        frontend developer. Basically, I am a professional musician and teacher.
+        My experience as a teacher helped me collaborate with fellow developers.
+        Additionally, working with kids isn't an easy task, however, it has
+        helped me become efficient, productive, and fast even in a very
+        stressful environment, which is an important skill in the tech industry.
+        You should hire me!
+        </p>
+        <h3>My stack:</h3>
+      </div>
       <div className="skillSet">
         {skills.map((skill) => {
-            <div className='skillHolder' key={skills.id}>
-                <h2>{skill.name}</h2>
+          return (
+            <div className="skillHolder" key={skills.id}>
+              <h2>{skill.name}</h2>
             </div>
+          );
         })}
       </div>
     </>

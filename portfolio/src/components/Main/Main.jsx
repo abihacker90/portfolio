@@ -1,9 +1,12 @@
 import "./Main.css";
-import adamPic from "../../assets/abihacker.jpg";
+import adamPic from "../../assets/adam.png";
 
 import React from "react";
 
 export default function Main() {
+
+    const welcomeContent = "I am a junior frontend developer, professional trumpet player and teacher, with great enthusiasm towards building frontend applications since the beginning of 2018."
+    
   return (
     <div className="mainContainer">
       <div className="imgHolder">
@@ -11,13 +14,9 @@ export default function Main() {
       </div>
       <div className="textHolder">
         <h2>
-          Hello, my name is <span>Adam Bihacker</span>
+          Hello, my name is <span>Adam Bihacker</span>,
         </h2>
-        <p>
-          I am a junior frontend developer, professional trumpet player and
-          teacher, with great enthusiasm towards building frontend applications
-          since the beginning of 2018.
-        </p>
+        <p>{welcomeContent}</p>
       </div>
     </div>
   );

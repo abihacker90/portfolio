@@ -8,6 +8,13 @@
 
 .mainContainer .imgHolder {
   width: 40%;
+  height: 450px;
+  /* THIS MUST BE CORRECTED TO BE RESPONSIVE */
+}
+
+.mainContainer .imgHolder img {
+  max-height: 100%;
+  opacity: 0.8;
 }
 
 .mainContainer .textHolder {
@@ -27,7 +34,7 @@
 .mainContainer .textHolder p {
   font-size: 1.1rem;
   line-height: 1.5;
-  letter-spacing: 3px;
+  letter-spacing: 2.5px;
   padding: 10px;
   text-align: justify;
 }
