@@ -1,0 +1,21 @@
+.skills-cont {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+
+    
+    .skillHolder {
+        width: 40%;
+        margin: 15px 0;
+        flex-basis: auto;
+        text-align: center;
+        border: 2px solid #faa500;
+        border-radius: 5px;
+
+        h2:hover {
+            color: #faa500;
+        }
+    }
+}

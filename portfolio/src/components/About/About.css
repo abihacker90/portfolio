@@ -1,0 +1,16 @@
+.about {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.about p {
+  text-align: justify;
+  line-height: 1.5;
+  letter-spacing: 1.8px;
+}
+
+.about h3 {
+  text-align: center;
+  padding-top: 20px;
+}
+/*# sourceMappingURL=About.css.map */

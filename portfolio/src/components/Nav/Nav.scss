@@ -1,7 +1,7 @@
 .navContainer {
   display: flex;
   flex-wrap: nowrap;
-  width: 100vw;
+  width: 100%;
 
   h1 {
     color: #faa500;
@@ -14,7 +14,7 @@
   .link-holder {
     margin-left: auto;
     margin-right: 60px;
-    padding: 15px;
+    padding: 30px;
 
     .link {
       color: #fff;
