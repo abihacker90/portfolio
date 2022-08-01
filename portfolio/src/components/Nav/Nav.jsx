@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './Nav.css';
 
 const Nav = () => {
@@ -5,11 +7,11 @@ const Nav = () => {
         <>
             <div className='navContainer'>
                 <h1>A B</h1>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
+                <div className='link-holder'>
+                    <Link className='link' to="/">Home</Link>
+                    <Link className='link' to="/about">About</Link>
+                    <Link className='link' to="contact">Contact</Link>
+                </div>
             </div>
         </>
     )

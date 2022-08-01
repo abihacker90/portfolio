@@ -15,18 +15,23 @@
   border: 2px solid #faa500;
 }
 
-.navContainer ul {
+.navContainer .link-holder {
   margin-left: auto;
   margin-right: 60px;
   padding: 15px;
 }
 
-.navContainer ul li {
+.navContainer .link-holder .link {
+  color: #fff;
   display: inline-block;
   padding: 10px;
-  list-style-type: none;
-  -webkit-text-decoration: underline 3px #faa500;
-          text-decoration: underline 3px #faa500;
+  text-decoration: none;
+}
+
+.navContainer .link-holder .link:hover {
+  color: #faa500;
+  -webkit-text-decoration: underline 3px solid #faa500;
+          text-decoration: underline 3px solid #faa500;
   text-underline-offset: 0.5em;
 }
 /*# sourceMappingURL=Nav.css.map */

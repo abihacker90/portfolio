@@ -1,28 +1,32 @@
 .navContainer {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100vw;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100vw;
 
-     h1 {
+  h1 {
+    color: #faa500;
+    font-size: 2.5rem;
+    padding: 15px;
+    margin-left: 5%;
+    border: 2px solid #faa500;
+  }
+
+  .link-holder {
+    margin-left: auto;
+    margin-right: 60px;
+    padding: 15px;
+
+    .link {
+      color: #fff;
+      display: inline-block;
+      padding: 10px;
+      text-decoration: none;
+
+      &:hover {
         color: #faa500;
-        font-size: 2.5rem;
-        padding: 15px;
-        margin-left: 5%;
-        border: 2px solid #faa500;
-    } 
-
-    ul {
-        margin-left: auto;
-        margin-right: 60px;
-        padding: 15px;
-
-        li {
-            display: inline-block;
-            padding: 10px;
-            list-style-type: none;
-            text-decoration: underline 3px #faa500;
-            text-underline-offset: 0.5em;
-        }
+        text-decoration: underline 3px solid #faa500;
+        text-underline-offset: 0.5em;
+      }
     }
-
+  }
 }

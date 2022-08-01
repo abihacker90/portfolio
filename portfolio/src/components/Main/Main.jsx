@@ -1,5 +1,5 @@
 import "./Main.css";
-import adamPic from "../../assets/adam.png";
+import adamPic from "../../assets/adika.png";
 
 import React from "react";
 
